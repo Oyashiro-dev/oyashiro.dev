@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Flexi_IBM_VGA";
+  src: url("Flexi_IBM_VGA_False.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: Flexi_IBM_VGA;
+}
+
+.bgvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
+}
+
+#head {
+  z-index: 1;
+  text-align: center;
+  color: black;
+  position: fixed;
+  width: 98%;
+  top: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #b8e1e4;
+  opacity: 85%;
+}
+
+#flor {
+  z-index: 1;
+  text-align: center;
+  color: black;
+  position: fixed;
+  width: 98%;
+  bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #b8e1e4;
+  opacity: 85%;
+}
+
+#osn {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: auto;
+}
+
+h1 {
+  opacity: 100%;
+}
+
+#logo {
+  z-index: 2;
+  position: fixed;
+  padding-left: 15px;
+  width: 5%;
+  height: auto;
+}
