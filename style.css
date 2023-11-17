@@ -61,3 +61,19 @@ h1 {
   width: 5%;
   height: auto;
 }
+
+a:link {
+  color: #513bce;
+}
+
+a:hover {
+  color: #7762ff;
+}
+
+a:active {
+  color: #f7333f;
+}
+
+a:visited {
+  color: #513bce;
+}
